@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
     });
   });
 
-// app.use('/user', proxy('http://localhost:8001'))
-// app.use('/comment', proxy('http://localhost:8002'))
+app.use('/user', proxy('http://localhost:8001'))
+app.use('/comment', proxy('http://localhost:8002'))
 
 const PORT = process.env.PORT || 8080;
 
