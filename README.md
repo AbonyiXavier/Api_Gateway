@@ -30,7 +30,6 @@ You must have
 - Make sure to start the server for both services 
 - In a browser address bar navigate to 'http://localhost:8080/user' and 'http://localhost:8080/comment'
 
-
 ## Microservice Architecture Image
 ![microservice-architecture drawio](https://user-images.githubusercontent.com/49367987/179437458-29e9d1e2-49aa-45a2-b440-daa06653c0d1.png)
 
@@ -38,8 +37,7 @@ You must have
 
 - NodeJs
 - Express
-- Heroku for hosting [url](api-gateway-proxy.herokuapp.com)
-
+- Deployed to Heroku
 
 ## Author
 
